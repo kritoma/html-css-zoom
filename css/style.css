@@ -16,10 +16,21 @@ button{
     border: none;
     border-radius: 5px;
     color: white;
+    cursor: pointer;
 }
 
 .btn-view{
     padding: 5px;
+}
+
+.btn-end{
+    background-color: red;
+    padding: 5px 15px;
+}
+
+.btn-footer{
+    background-color: #1b1b1b;
+    color: #a8a8a8;
 }
 
 /* bg-image */
@@ -46,6 +57,18 @@ button{
 .bg-6{
     background-image: url(https://picsum.photos/id/1001/367/267);
 }
+
+/* margin left */
+
+.margin-right{
+    margin-right: 10px;
+}
+
+/* color */
+.green{
+    color: lawngreen;
+}
+
 
 /* header */
 header{
@@ -86,7 +109,7 @@ header{
 
 /* main */
 main{
-    height: calc(100vh - 38px);
+    height: calc(100vh - 38px - 53px);
     padding: 20px 50px;
     display: flex;
     flex-wrap: wrap;
@@ -115,4 +138,47 @@ main{
 .microphone-red{
     color: red;
     padding-right: 5px;
+}
+
+/* footer */
+footer{
+    background-color: #1b1b1b;
+    color: #a8a8a8;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left, .footer-middle, .footer-right{
+    display: flex;    
+}
+
+.footer-left{
+    width: 25%;
+    text-align: center;
+    gap: 30px;
+}
+
+.footer-middle{
+    width: 50%;
+    justify-content: center;
+}
+
+.footer-middle ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    gap: 30px;
+}
+
+.footer-right{
+    width: 25%;
+    justify-content: flex-end;
+}
+
+
+footer i{
+    font-size: 20px;
+    margin-bottom: 5px;
 }
