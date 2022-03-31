@@ -1,0 +1,62 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* typo */
+body{
+    background-color: #111111;
+}
+
+/* button */
+button{
+    background-color: #0a0b0b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-view{
+    padding: 5px;
+}
+
+/* header */
+header{
+    display: flex;
+    padding: 5px;
+}
+
+.header-left, .header-right{
+    width: 50%;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+}
+
+.shield, .recording{
+    background-color: #0a0b0b;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+.shield{
+    color: green;
+    margin-right: 10px;
+    
+}
+
+.recording{
+    color: white;
+    display: flex;
+    gap: 20px;
+    padding: 5px 10px;
+}
+
+.header-right{
+    text-align: right;
+}
