@@ -109,16 +109,16 @@ header{
 
 /* main */
 main{
-    height: calc(100vh - 38px - 53px);
+    height: calc(100vh - 40px - 60px);
     padding: 20px 50px;
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
+    overflow: auto;
 }
 
 .user{
     width: calc(100% / 6 - 5px);
-    height: calc(100% / 6 - 5px);
     background-size: cover;
     background-position: center;
     border-radius: 5px;
@@ -142,6 +142,7 @@ main{
 
 /* footer */
 footer{
+    height: 60px;
     background-color: #1b1b1b;
     color: #a8a8a8;
     padding: 5px 15px;
