@@ -182,3 +182,18 @@ footer i{
     font-size: 20px;
     margin-bottom: 5px;
 }
+
+.btn-chevron{
+    position: relative;
+}
+
+.btn-chevron::after{
+    content: '^';
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+footer span{
+    font-size: 12px;
+}
