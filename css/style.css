@@ -22,6 +22,31 @@ button{
     padding: 5px;
 }
 
+/* bg-image */
+.bg-1{
+    background-image: url(https://images.unsplash.com/flagged/1/apple-gear-looking-pretty.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+}
+
+.bg-2{
+    background-image: url(https://picsum.photos/id/1/367/267);
+}
+
+.bg-3{
+    background-image: url(https://picsum.photos/id/10/367/267);
+}
+
+.bg-4{
+    background-image: url(https://picsum.photos/id/100/367/267);
+}
+
+.bg-5{
+    background-image: url(https://picsum.photos/id/1000/367/267);
+}
+
+.bg-6{
+    background-image: url(https://picsum.photos/id/1001/367/267);
+}
+
 /* header */
 header{
     display: flex;
@@ -40,14 +65,12 @@ header{
 .shield, .recording{
     background-color: #0a0b0b;
     padding: 5px;
-    border-radius: 5px;
-    
+    border-radius: 5px;    
 }
 
 .shield{
     color: green;
-    margin-right: 10px;
-    
+    margin-right: 10px;    
 }
 
 .recording{
@@ -59,4 +82,37 @@ header{
 
 .header-right{
     text-align: right;
+}
+
+/* main */
+main{
+    height: calc(100vh - 38px);
+    padding: 20px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.user{
+    width: calc(100% / 6 - 5px);
+    height: calc(100% / 6 - 5px);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    position: relative;
+}
+
+.name{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    color: white;
+}
+
+.microphone-red{
+    color: red;
+    padding-right: 5px;
 }
